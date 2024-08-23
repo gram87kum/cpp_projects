@@ -1,5 +1,5 @@
 /*
-Description: Hello world program for MPI. Program involves printing 
+Description: Hello world program for MPI. Program involves printing.
              "Hello world followed by process id used for printing"
 Author: gram87k
 Date: 8/23/2024
@@ -19,7 +19,7 @@ main(int argc, char* argv[]){
     char message[100]; //Storage for message
     MPI_Status status; //Return status for receive
 
-    MPI_Init(&argc, &argv); //Starting point of MPI program. 
+    MPI_Init(&argc, &argv); //Starting point of MPI program.
     //Args are pointers to main function arg for special setup if any
 
     //Find out process rank
