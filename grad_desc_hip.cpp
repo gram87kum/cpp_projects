@@ -1,3 +1,9 @@
+/*
+File_Name: grad_desc_hip.cpp
+Description: Gradient descent program to find slope of random linear numbers
+author: gram87kum
+Cmd line: hipcc grad_desc_hip.cpp; 
+*/
 #include <iostream>
 #include <vector>
 #include <random>
